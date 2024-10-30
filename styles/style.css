@@ -235,7 +235,9 @@ input:placeholder{
 .input-icon{
     padding-left: 45px;
 }
-
+.input-form{
+    display: none;
+}
 .input__icon{
     position: absolute;
     top: 10px;
