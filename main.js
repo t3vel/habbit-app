@@ -135,7 +135,7 @@ function rerenderMenu(activeHabbit){
             element.setAttribute('menu-habbit-id', habbit.id);
             element.classList.add('menu__item');
             element.addEventListener('click', () => rerender(habbit.id));
-            element.innerHTML = `<img src="/images/${habbit.icon}.svg" alt="${habbit.name}"></img>`;
+            element.innerHTML = `<img src="images/${habbit.icon}.svg" alt="${habbit.name}"></img>`;
             if (activeHabbit.id === habbit.id){
                 element.classList.add('menu__item_active');
             }
@@ -174,7 +174,7 @@ function rerenderContent(activeHabbit) {
             </div>
             <div class="habbit__comment">${activeHabbit.days[index].comment}</div>
             <button class="habbit__delete">
-                <img src="/images/delete.svg" alt="Видалити день ${+index + 1}">
+                <img src="images/delete.svg" alt="Видалити день ${+index + 1}">
             </button>`;
         
         // Додаємо обробник події для кнопки видалення
