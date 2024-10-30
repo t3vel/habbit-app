@@ -7,16 +7,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <div class="app">
         <div class="panel">
-            <img class="logo" src="/images/logo.svg" alt="Логтип Trainer App">
+            <img class="logo" src="images/logo.svg" alt="Логтип Trainer App">
             <nav class="menu">
                 <div class="menu__list"></div>
                 <button class="menu__add" onclick="togglePopup()">
-                    <img src="/images/Add.svg" alt="Додати звичку">
+                    <img src="images/Add.svg" alt="Додати звичку">
                 </button>
             </nav>
             
@@ -26,7 +26,7 @@
                 <div class='del-btn__container'>
                     <h1 class="h1">-</h1>
                     <button class="delete-habbit" onclick="deleteHabit()">
-                        <img src="/images/delete.svg" alt="Видалити звичку">
+                        <img src="images/delete.svg" alt="Видалити звичку">
                     </button>
                 </div>
                 <div class="progress">
@@ -61,9 +61,9 @@
                 <h2>Нова звичка</h2>
                 <div class="icon-label">Іконка</div>
                 <div class="icon-select">
-                    <button class="icon icon_active" onclick="setIcon(this, 'sport')"><img src="/images/sport.svg" alt="Спорт" ></button>
-                    <button class="icon" onclick="setIcon(this, 'water')"><img src="/images/Water.svg" alt="Вода"></button>
-                    <button class="icon" onclick="setIcon(this, 'food')"><img src="/images/food.svg" alt="Їжа"></button>
+                    <button class="icon icon_active" onclick="setIcon(this, 'sport')"><img src="images/sport.svg" alt="Спорт" ></button>
+                    <button class="icon" onclick="setIcon(this, 'water')"><img src="images/Water.svg" alt="Вода"></button>
+                    <button class="icon" onclick="setIcon(this, 'food')"><img src="images/food.svg" alt="Їжа"></button>
                 </div>
                 <form class="popup__form" onsubmit="addHabbit(event)">
                     <input type="text" name="name" placeholder="Назва">
@@ -80,6 +80,6 @@
     </div>
 
 
-    <script src="/main.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
